@@ -1,0 +1,494 @@
+Cages:
+  Default:
+    name: 'Varsayılan'
+    description: ''
+    icon: 'GLASS : 1'
+    rarity: yaygin
+    cost: 0
+    permission: NONE
+    ceiling: GLASS
+    ceilingBorder: AIR
+    higherMiddle: GLASS
+    higherMiddleBorder: AIR
+    middle: GLASS
+    middleBorder: AIR
+    lowerMiddle: GLASS
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: GLASS
+  Muz:
+    name: 'Muz'
+    description: 'Tamamı sarı renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:4 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:4'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:4'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:4'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:4'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:4'
+  Ciklet:
+    name: 'Ciklet'
+    description: 'Tamamı pembe renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:6 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:6'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:6'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:6'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:6'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:6'
+  Bulut:
+    name: 'Bulut'
+    description: 'Tamamı açık gri renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:8 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:8'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:8'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:8'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:8'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:8'
+  Yesil:
+    name: 'Yeşil'
+    description: 'Tamamı yeşil renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:13 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:13'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:13'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:13'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:13'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:13'
+  AcikYesil:
+    name: 'Açık Yeşil'
+    description: 'Tamamı açık yeşil renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:5 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:5'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:5'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:5'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:5'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:5'
+  Sis:
+    name: 'Sis'
+    description: 'Tamamı camgöbeği renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:9 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:9'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:9'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:9'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:9'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:9'
+  Portakal:
+    name: 'Portakal'
+    description: 'Tamamı turuncu renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:1 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:1'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:1'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:1'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:1'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:1'
+  Gokyuzu:
+    name: 'Gökyüzü'
+    description: 'Tamamı açık mavi renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:3 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:3'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:3'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:3'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:3'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:3'
+  Sekerleme:
+    name: 'Şekerleme'
+    description: 'Tamamı kahverengi renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:12 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:12'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:12'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:12'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:12'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:12'
+  Bosluk:
+    name: 'Boşluk'
+    description: 'Tamamı gri renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:7 : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:7'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:7'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:7'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:7'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:7'
+  Melek:
+    name: 'Melek'
+    description: 'Tamamı beyaz renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:0 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:0'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:0'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:0'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:0'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:0'
+  Mavi:
+    name: 'Mavi'
+    description: 'Tamamı mavi renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:11 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:11'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:11'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:11'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:11'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:11'
+  Karanlik:
+    name: 'Karanlık'
+    description: 'Tamamı siyah renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:15 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:15'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:15'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:15'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:15'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:15'
+  Premium:
+    name: 'Premium'
+    description: 'Tamamı eflatun renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:2 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:2'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:2'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:2'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:2'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:2'
+  Ofke:
+    name: 'Öfke'
+    description: 'Tamamı kırmızı renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:14 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:14'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:14'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:14'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:14'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:14'
+  Asil:
+    name: 'Asil'
+    description: 'Tamamı mor renk camdan oluşan kafes.'
+    icon: 'STAINED_GLASS:10 : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:10'
+    ceilingBorder: AIR
+    higherMiddle: 'STAINED_GLASS:10'
+    higherMiddleBorder: AIR
+    middle: 'STAINED_GLASS:10'
+    middleBorder: AIR
+    lowerMiddle: 'STAINED_GLASS:10'
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: 'STAINED_GLASS:10'
+  CiftlikAvi:
+    name: 'Çiftlik Avı'
+    description: 'Çitler ardında güvende hisset!'
+    icon: 'FENCE : 1'
+    rarity: destansi
+    cost: 25000
+    permission: NONE
+    ceiling: 'WOOD'
+    ceilingBorder: FENCE
+    higherMiddle: 'FENCE'
+    higherMiddleBorder: FENCE
+    middle: 'FENCE'
+    middleBorder: FENCE
+    lowerMiddle: 'FENCE'
+    lowerMiddleBorder: FENCE
+    floorBorder: FENCE
+    floor: 'WOOD'
+  Nether:
+    name: 'Nether'
+    description: 'Nether çitleriyle kaplı kafes!'
+    icon: 'NETHER_FENCE : 1'
+    rarity: destansi
+    cost: 25000
+    permission: NONE
+    ceiling: 'NETHER_BRICK'
+    ceilingBorder: NETHER_FENCE
+    higherMiddle: 'NETHER_FENCE'
+    higherMiddleBorder: NETHER_FENCE
+    middle: 'NETHER_FENCE'
+    middleBorder: NETHER_FENCE
+    lowerMiddle: 'NETHER_FENCE'
+    lowerMiddleBorder: NETHER_FENCE
+    floorBorder: NETHER_FENCE
+    floor: 'NETHER_BRICK'
+  Elma:
+    name: 'Elma'
+    description: 'Sarı ince cam ve altın bloklu kafes.'
+    icon: 'STAINED_GLASS_PANE:4 : 1'
+    rarity: destansi
+    cost: 25000
+    permission: NONE
+    ceiling: 'GOLD_BLOCK'
+    ceilingBorder: 'STAINED_GLASS_PANE:4'
+    higherMiddle: 'STAINED_GLASS_PANE:4'
+    higherMiddleBorder: 'STAINED_GLASS_PANE:4'
+    middle: 'STAINED_GLASS_PANE:4'
+    middleBorder: 'STAINED_GLASS_PANE:4'
+    lowerMiddle: 'STAINED_GLASS_PANE:4'
+    lowerMiddleBorder: 'STAINED_GLASS_PANE:4'
+    floorBorder: 'STAINED_GLASS_PANE:4'
+    floor: 'GOLD_BLOCK'
+  KiziltasUstasi:
+    name: 'Kızıltaş Ustası'
+    description: 'Kırmızı ince cam ve kızıltaş bloklu kafes.'
+    icon: 'STAINED_GLASS_PANE:14 : 1'
+    rarity: destansi
+    cost: 25000
+    permission: NONE
+    ceiling: 'REDSTONE_BLOCK'
+    ceilingBorder: 'STAINED_GLASS_PANE:14'
+    higherMiddle: 'STAINED_GLASS_PANE:14'
+    higherMiddleBorder: 'STAINED_GLASS_PANE:14'
+    middle: 'STAINED_GLASS_PANE:14'
+    middleBorder: 'STAINED_GLASS_PANE:14'
+    lowerMiddle: 'STAINED_GLASS_PANE:14'
+    lowerMiddleBorder: 'STAINED_GLASS_PANE:14'
+    floorBorder: 'STAINED_GLASS_PANE:14'
+    floor: 'REDSTONE_BLOCK'
+  Solgun:
+    name: 'Solgun'
+    description: 'Siyahtan beyaza giden yolculuk!'
+    icon: 'STAINED_GLASS_PANE:8 : 1'
+    rarity: destansi
+    cost: 25000
+    permission: NONE
+    ceiling: 'STAINED_GLASS:0'
+    ceilingBorder: 'STAINED_GLASS:0'
+    higherMiddle: 'STAINED_GLASS_PANE:0'
+    higherMiddleBorder: 'STAINED_GLASS_PANE:0'
+    middle: 'STAINED_GLASS_PANE:8'
+    middleBorder: 'STAINED_GLASS_PANE:8'
+    lowerMiddle: 'STAINED_GLASS_PANE:7'
+    lowerMiddleBorder: 'STAINED_GLASS_PANE:7'
+    floorBorder: 'STAINED_GLASS:15'
+    floor: 'STAINED_GLASS:15'
+  Buz:
+    name: 'Buz'
+    description: 'Buz gibi!'
+    icon: 'ICE : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: ICE
+    ceilingBorder: AIR
+    higherMiddle: ICE
+    higherMiddleBorder: AIR
+    middle: ICE
+    middleBorder: AIR
+    lowerMiddle: ICE
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: ICE
+  Gorunmez:
+    name: 'Görünmez'
+    description: 'Sihir!'
+    icon: 'BARRIER : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: 'rank.vip'
+    ceiling: BARRIER
+    ceilingBorder: AIR
+    higherMiddle: BARRIER
+    higherMiddleBorder: AIR
+    middle: BARRIER
+    middleBorder: AIR
+    lowerMiddle: BARRIER
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: BARRIER
+  Agac:
+    name: 'Ağaç'
+    description: 'Yaprakların ardında!'
+    icon: 'LEAVES : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: LEAVES
+    ceilingBorder: AIR
+    higherMiddle: LEAVES
+    higherMiddleBorder: AIR
+    middle: LEAVES
+    middleBorder: AIR
+    lowerMiddle: LEAVES
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: LEAVES
+  Zindan:
+    name: 'Zindan'
+    description: 'Yaratıkların ardında!'
+    icon: 'MOB_SPAWNER : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: MOB_SPAWNER
+    ceilingBorder: AIR
+    higherMiddle: MOB_SPAWNER
+    higherMiddleBorder: AIR
+    middle: MOB_SPAWNER
+    middleBorder: AIR
+    lowerMiddle: MOB_SPAWNER
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: MOB_SPAWNER
+  Mahremiyet:
+    name: 'Mahremiyet'
+    description: 'İçeride ne yaptığını kimse göremez!'
+    icon: 'COAL_BLOCK : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: COAL_BLOCK
+    ceilingBorder: AIR
+    higherMiddle: COAL_BLOCK
+    higherMiddleBorder: AIR
+    middle: COAL_BLOCK
+    middleBorder: AIR
+    lowerMiddle: COAL_BLOCK
+    lowerMiddleBorder: AIR
+    floorBorder: AIR
+    floor: COAL_BLOCK
+  ElmasKrali:
+    name: 'Elmas Kralı'
+    description: 'En zenginin kim olduğunu göster!'
+    icon: 'DIAMOND_BLOCK : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: DIAMOND_BLOCK
+    ceilingBorder: DIAMOND_BLOCK
+    higherMiddle: 'STAINED_GLASS_PANE:3'
+    higherMiddleBorder: 'STAINED_GLASS_PANE:3'
+    middle: 'STAINED_GLASS_PANE:3'
+    middleBorder: 'STAINED_GLASS_PANE:3'
+    lowerMiddle: 'STAINED_GLASS_PANE:3'
+    lowerMiddleBorder: 'STAINED_GLASS_PANE:3'
+    floorBorder: DIAMOND_BLOCK
+    floor: DIAMOND_BLOCK
+  Domino:
+    name: 'Domino'
+    description: 'Domino taşları!'
+    icon: 'QUARTZ_BLOCK : 1'
+    rarity: efsanevi
+    cost: 100000
+    permission: NONE
+    ceiling: QUARTZ_BLOCK
+    ceilingBorder: AIR
+    higherMiddle: 'COAL_BLOCK'
+    higherMiddleBorder: 'AIR'
+    middle: 'AIR'
+    middleBorder: 'AIR'
+    lowerMiddle: 'QUARTZ_BLOCK'
+    lowerMiddleBorder: 'AIR'
+    floorBorder: AIR
+    floor: COAL_BLOCK

@@ -1,0 +1,495 @@
+Kits:
+  Default:
+    name: 'Varsayılan'
+    description: |
+      Herkesin sahip olduğu kit.
+       
+      &6&lİçindekiler:
+      &7Tahta Kazma
+      &7Tahta Balta
+      &7Tahta Kürek
+    icon: 'WOOD_PICKAXE : 1'
+    rarity: yaygin
+    cost: 0
+    permission: NONE
+    items:
+    - 'WOOD_PICKAXE : 1'
+    - 'WOOD_AXE : 1'
+    - 'WOOD_SPADE : 1'
+  Zirhci:
+    name: 'Zırhçı'
+    description: |
+      Ağır zırhlarla dayanaklılığını arttır!
+       
+      &6&lİçindekiler:
+      &7Altın Göğüslük
+      &7Altın Pantolon
+      &7Altın Botlar
+    icon: 'GOLD_CHESTPLATE : 1'
+    rarity: nadir
+    cost: 25000
+    permission: 'rank.vip'
+    items:
+    - 'GOLD_CHESTPLATE : 1'
+    - 'GOLD_LEGGINGS : 1'
+    - 'GOLD_BOOTS : 1'
+  Demirci:
+    name: 'Demirci'
+    description: |
+      Daha oyunun başında kendine en güçlü eşyaları hazırla!
+       
+      &6&lİçindekiler:
+      &7Elmas Kask
+      &7Örs
+      &764 Tecrübe İksiri
+      &7Büyülü Kitap
+        &8• Koruma 3
+        &8• Keskinlik 1
+    icon: 'ANVIL : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'DIAMOND_HELMET : 1'
+    - 'ANVIL : 1'
+    - 'EXP_BOTTLE : 64'
+    - 'ENCHANTED_BOOK : 1 : enchant:PROTECTION_ENVIRONMENTAL:3 : enchant:DAMAGE_ALL:1'
+  BeyzbolOyuncusu:
+    name: 'Beyzbol Oyuncusu'
+    description: |
+      Savurmalı kılıçla oyuncularla beyzbol topu gibi oyna!
+       
+      &6&lİçindekiler:
+      &7Demir Kask
+        &8• Koruma 1
+      &7Tahta Kılıç
+        &8• Savurma 1
+    icon: 'IRON_HELMET : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'IRON_HELMET : 1 : enchant:PROTECTION_ENVIRONMENTAL:1'
+    - 'WOOD_SWORD : 1 : enchant:KNOCKBACK:1'
+  Topcu:
+    name: 'Topçu'
+    description: |
+      Uçmaya ve uçurmaya hazır ol!
+       
+      &6&lİçindekiler:
+      &716 TNT
+      &74 Kızıltaş Bloğu
+      &7Su Kovası
+      &74 Basınç Plakası
+      &7Demir Botlar
+        &8• Tüy Düşüşü 3
+        &8• Patlama Koruması 3
+    icon: 'TNT : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+    items:
+    - 'TNT : 16'
+    - 'REDSTONE_BLOCK : 4'
+    - 'WATER_BUCKET : 1'
+    - 'STONE_PLATE : 4'
+    - 'IRON_BOOTS : 1 : enchant:PROTECTION_FALL:3 : enchant:PROTECTION_EXPLOSIONS:3'
+  Oduncu:
+    name: 'Oduncu'
+    description: |
+      Baltanla sandıkları en hızlı şekilde boşalt!
+       
+      &6&lİçindekiler:
+      &7Demir Balta
+        &8• Verimlilik 1
+      &716 Tahta
+    icon: 'IRON_AXE : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'IRON_AXE : 1 : enchant:DIG_SPEED:1'
+    - 'WOOD : 16'
+  Buyucu:
+    name: 'Büyücü'
+    description: |
+      Büyü masası ve 8 kitaplıkla en güçlü eşyaları sen yap!
+       
+      &6&lİçindekiler:
+      &7Büyü Masası
+      &764 Tecrübe İksiri
+      &78 Kitaplık
+    icon: 'EXP_BOTTLE : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'ENCHANTMENT_TABLE : 1'
+    - 'EXP_BOTTLE : 64'
+    - 'BOOKSHELF : 8'
+  Ciftci:
+    name: 'Çiftçi'
+    description: |
+      Civcivlerinle herkesi dünyanın dibine yolla!
+       
+      &6&lİçindekiler:
+      &7Demir Pantolon
+        &8• Hasar Koruması 3
+      &764 Yumurta
+      &7Altın Elma
+    icon: 'IRON_LEGGINGS : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'IRON_LEGGINGS : 1 : enchant:PROTECTION_PROJECTILE:3'
+    - 'EGG : 64'
+    - 'GOLDEN_APPLE : 1'
+  Balikci:
+    name: 'Balıkçı'
+    description: |
+      Balığa çıkmaya hazır mısın?
+       
+      &6&lİçindekiler:
+      &716 Pişmiş Balık
+      &7Olta
+        &8• Kırılmazlık 10
+        &8• Savurma 1
+        &8• Ayartma 7
+        &8• Deniz Şansı 10
+    icon: 'FISHING_ROD : 1'
+    rarity: nadir
+    cost: 25000
+    permission: 'rank.vip'
+    items:
+    - 'FISHING_ROD : 1 : enchant:DURABILITY:10 : enchant:KNOCKBACK:1 : enchant:LURE:7 : enchant:LUCK:10'
+    - 'COOKED_FISH : 16'
+  Avci:
+    name: 'Avcı'
+    description: |
+      Uzak mesafe yeteneklerinle herkesi avla!
+       
+      &6&lİçindekiler:
+      &7Yay
+      &716 Ok
+    icon: 'BOW : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'BOW : 1'
+    - 'ARROW : 16'
+  Sovalye:
+    name: 'Şövalye'
+    description: |
+      Estetik dövüş yeteneklerini sergile!
+       
+      &6&lİçindekiler:
+      &7Altın Kılıç
+        &8• Keskinlik 2
+        &8• Kırılmazlık 5
+      &7Altın Kask
+        &8• Koruma 1
+    icon: 'GOLD_SWORD : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'GOLD_SWORD : 1 : enchant:DAMAGE_ALL:2 : enchant:DURABILITY:5'
+    - 'GOLD_HELMET : 1 : enchant:PROTECTION_ENVIRONMENTAL:1'
+  Firavun:
+    name: 'Firavun'
+    description: |
+      Diğer oyunculara hükmet!
+       
+      &6&lİçindekiler:
+      &7Altın Kask
+      &7Fener
+      &742 Zümrüt Bloğu
+      &7Deri Göğüslük
+      &7Deri Pantolon
+    icon: 'GOLD_HELMET : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'GOLD_HELMET : 1'
+    - 'BEACON : 1'
+    - 'EMERALD_BLOCK : 42'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_LEGGINGS : 1'
+  KursunAsker:
+    name: 'Kurşun Asker'
+    description: |
+      Belki en iyisi olmaz ama her şeye sahip olabilirsin.
+       
+      &6&lİçindekiler:
+      &7Deri Kask
+      &7Deri Göğüslük
+      &7Deri Pantolon
+      &7Deri Botlar
+      &7Tahta Kılıç
+      &716 Cam
+    icon: 'LEATHER_HELMET : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'LEATHER_HELMET : 1'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_BOOTS : 1'
+    - 'WOOD_SWORD : 1'
+    - 'GLASS : 16'
+  KardanAdam:
+    name: 'Kardan Adam'
+    description: |
+      Kardan dostunla her yeri beyaza boya!
+       
+      &6&lİçindekiler:
+      &716 Kartopu
+      &72 Kar Bloğu
+      &7Demir Kürek
+      &7Deri Botlar
+      &7Balkabağı
+    icon: 'SNOW_BALL : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'SNOW_BALL : 16'
+    - 'SNOW_BLOCK : 2'
+    - 'IRON_SPADE : 1'
+    - 'LEATHER_BOOTS : 1'
+    - 'PUMPKIN : 1'
+  Madenci:
+    name: 'Madenci'
+    description: |
+      Haritadaki tüm madenleri kaz!
+       
+      &6&lİçindekiler:
+      &716 Taş
+      &7Demir Kazma
+        &8• Verimlilik 3
+        &8• Keskinlik 1
+        &8• Kırılmazlık 3
+    icon: 'IRON_PICKAXE : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'IRON_PICKAXE : 1 : enchant:DIG_SPEED:3 : enchant:DAMAGE_ALL:1 : enchant:DURABILITY:3'
+    - 'STONE : 16'
+  Troll:
+    name: 'Troll'
+    description: |
+      Trololololol!
+       
+      &6&lİçindekiler:
+      &716 Örümcek Ağı
+      &7TNT
+      &7Tuzaklı Sandık
+      &78 Kırmızı Kumtaşı
+      &7Deri Göğüslük
+      &7Deri Pantolon
+      &7Deri Botlar
+    icon: 'WEB : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+    items:
+    - 'WEB : 16'
+    - 'TNT : 1'
+    - 'TRAPPED_CHEST : 1'
+    - 'RED_SANDSTONE : 8'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_BOOTS : 1'
+  YarasaAdam:
+    name: 'Yarasa Adam'
+    description: |
+      Skywars'u Gotham'a çevir!
+       
+      &6&lİçindekiler:
+      &7Deri Kask
+      &7Deri Göğüslük
+      &7Deri Pantolon
+      &7Deri Botlar
+      &7Yarasa Yumurtası
+      &7Yarasa'nın İksiri (8 saniye)
+    icon: 'MONSTER_EGG:65 : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'LEATHER_HELMET : 1'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_BOOTS : 1'
+    - 'MONSTER_EGG:65 : 1'
+    - 'korlukIksiri : 1'
+  DJ:
+    name: 'DJ'
+    description: |
+      Müziğini her yerde icra et!
+       
+      &6&lİçindekiler:
+      &7Altın Kask
+        &8• Hasar Koruması 4
+      &7Deri Göğüslük
+        &8• Koruma 2
+        &8• Dikenler 3
+      &7Deri Pantolon
+      &7Deri Botlar
+      &7Müzik Kutusu
+      &712 Nota Bloğu
+      &7Rastgele Müzik Diski
+    icon: 'rastgeleMuzikDiski : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'GOLD_HELMET : 1 : enchant:PROTECTION_PROJECTILE:4'
+    - 'LEATHER_CHESTPLATE : 1 : enchant:PROTECTION_ENVIRONMENTAL:2 : enchant:THORNS:3'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_BOOTS : 1 : enchant:PROTECTION_FALL:2'
+    - 'JUKEBOX : 1'
+    - 'NOTE_BLOCK : 12'
+    - 'rastgeleMuzikDiski : 1'
+  Enerjik:
+    name: 'Enerjik'
+    description: |
+      Kılıcına kuvvet!
+       
+      &6&lİçindekiler:
+      &7Güç İksiri (5 saniye)
+    icon: 'BREWING_STAND_ITEM : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'gucIksiri : 1'
+  Kurbaga:
+    name: 'Kurbağa'
+    description: |
+      Zıp zıp zıp!
+       
+      &6&lİçindekiler:
+      &7Kurbağa İksiri (20 saniye)
+      &7Kurbağa Kafası
+      &7Deri Göğüslük
+      &7Deri Pantolon
+      &7Deri Botlar
+    icon: 'kurbagaKafasi : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'kurbagaIksiri : 1'
+    - 'kurbagaKafasi : 1'
+    - 'LEATHER_CHESTPLATE : 1'
+    - 'LEATHER_LEGGINGS : 1'
+    - 'LEATHER_BOOTS : 1'
+  Bombaci:
+    name: 'Bombacı'
+    description: |
+      Haritada delik aç!
+       
+      &6&lİçindekiler:
+      &7Creeper Yumurtası
+    icon: 'MONSTER_EGG:50 : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'MONSTER_EGG:50 : 1'
+  Gozcu:
+    name: 'Gözcü'
+    description: |
+      Hızına hız kat!
+       
+      &6&lİçindekiler:
+      &7Hız İksiri (15 saniye)
+    icon: 'SUGAR : 1'
+    rarity: yaygin
+    cost: 15000
+    permission: NONE
+    items:
+    - 'hiz2Iksiri : 3'
+  Muhendis:
+    name: 'Mühendis'
+    description: |
+      Sınırın hayal gücün!
+       
+      &6&lİçindekiler:
+      &7Şalter
+      &72 Tuzak Kancası
+      &78 Örümcek Ağı
+      &74 Piston
+      &74 Balçık Topu
+      &716 Kızıltaş
+      &72 Fırlatıcı
+    icon: 'REDSTONE : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'TRIPWIRE_HOOK : 2'
+    - 'WEB : 8'
+    - 'PISTON_BASE : 4'
+    - 'SLIME_BALL : 4'
+    - 'REDSTONE : 16'
+    - 'LEVER : 1'
+    - 'DISPENSER : 2'
+  SomonBaligi:
+    name: 'Somon Balığı'
+    description: |
+      Su, hayattır!
+       
+      &6&lİçindekiler:
+      &7Elmas Botlar
+        &8• Derin Koşucu 3
+      &73 Su Kovası
+    icon: 'COOKED_FISH:1 : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+    items:
+    - 'DIAMOND_BOOTS : 1 : enchant:DEPTH_STRIDER:3'
+    - 'WATER_BUCKET : 3'
+  DomuzBinicisi:
+    name: 'Domuz Binicisi'
+    description: |
+      Bineğinle daha hızlı hareket et!
+       
+      &6&lİçindekiler:
+      &7Eyer
+      &7Domuz Yumurtası
+      &7Altın Kask
+        &8• Koruma 4
+      &7Havuçlu Olta
+    icon: 'CARROT_STICK : 1'
+    rarity: nadir
+    cost: 25000
+    permission: NONE
+    items:
+    - 'SADDLE : 1'
+    - 'MONSTER_EGG:90 : 1'
+    - 'GOLD_HELMET : 1 : enchant:PROTECTION_ENVIRONMENTAL:4'
+    - 'CARROT_STICK : 1'
+  Balcik:
+    name: 'Balçık'
+    description: |
+      Trambolinleri sever misin?
+       
+      &6&lİçindekiler:
+      &7Demir Botlar
+        &8• Tüy Düşüşü 4
+      &716 Balçık Bloğu
+    icon: 'SLIME_BLOCK : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: 'rank.vip'
+    items:
+    - 'IRON_BOOTS : 1 : enchant:PROTECTION_FALL:4'
+    - 'SLIME_BLOCK : 16'

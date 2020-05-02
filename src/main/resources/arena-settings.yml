@@ -1,0 +1,8 @@
+enabled: false
+team-size: 1
+min-teams: 2
+max-teams: 4
+lobby-countdown: 30
+game-length: 900
+refill-times: [600, 300]
+effects: ['NONE']

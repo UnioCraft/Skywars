@@ -1,0 +1,162 @@
+Trails:
+  Default:
+    name: 'Varsayılan'
+    description: ''
+    icon: 'SAND : 1'
+    rarity: yaygin
+    cost: 0
+    permission: NONE
+  Obsidian:
+    name: 'Obsidyen'
+    description: ''
+    icon: 'OBSIDIAN : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Sunger:
+    name: 'Sünger'
+    description: ''
+    icon: 'SPONGE : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Zumrut:
+    name: 'Zümrüt'
+    description: ''
+    icon: 'EMERALD_BLOCK : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+  Kar:
+    name: 'Kar'
+    description: ''
+    icon: 'SNOW_BLOCK : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Tas:
+    name: 'Taş'
+    description: ''
+    icon: 'STONE : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Kiriktas:
+    name: 'Kırıktaş'
+    description: ''
+    icon: 'COBBLESTONE : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  CalismaMasasi:
+    name: 'Çalışma Masası'
+    description: ''
+    icon: 'WORKBENCH : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Buz:
+    name: 'Buz'
+    description: ''
+    icon: 'ICE : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Firin:
+    name: 'Fırın'
+    description: ''
+    icon: 'FURNACE : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Kiziltas:
+    name: 'Kızıltaş'
+    description: ''
+    icon: 'REDSTONE_BLOCK : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+  Cimen:
+    name: 'Çimen'
+    description: ''
+    icon: 'GRASS : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Odun:
+    name: 'Odun'
+    description: ''
+    icon: 'LOG : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Kitaplik:
+    name: 'Kitaplık'
+    description: ''
+    icon: 'BOOKSHELF : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Tahta:
+    name: 'Tahta'
+    description: ''
+    icon: 'WOOD : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Toprak:
+    name: 'Toprak'
+    description: ''
+    icon: 'DIRT : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Kumtasi:
+    name: 'Kumtaşı'
+    description: ''
+    icon: 'SANDSTONE : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  TNT:
+    name: 'TNT'
+    description: ''
+    icon: 'TNT : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: 'rank.vip'
+  Balkabagi:
+    name: 'Balkabağı'
+    description: ''
+    icon: 'PUMPKIN : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Karpuz:
+    name: 'Karpuz'
+    description: ''
+    icon: 'MELON_BLOCK : 1'
+    rarity: nadir
+    cost: 10000
+    permission: NONE
+  Isiktasi:
+    name: 'Işıktaşı'
+    description: ''
+    icon: 'GLOWSTONE : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: NONE
+  Tugla:
+    name: 'Tuğla'
+    description: ''
+    icon: 'BRICK : 1'
+    rarity: yaygin
+    cost: 5000
+    permission: NONE
+  Elmas:
+    name: 'Elmas'
+    description: ''
+    icon: 'DIAMOND_BLOCK : 1'
+    rarity: efsanevi
+    cost: 50000
+    permission: 'rank.vip'

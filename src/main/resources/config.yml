@@ -1,0 +1,156 @@
+gameMode: solo
+Load-Delay-Ticks: 10
+Empty-Chunk-Generator: true
+use-UUID: false
+use-Vault: false
+String-Coins: 0
+Coins-Per-Kill: 0
+Coins-Per-Win: 0
+Min-Exp-Per-Kill: 0
+Max-Exp-Per-Kill: 0
+Celebration-Length: 10
+Max-Warnings: 3
+Lobby-Chat: true
+In-Game-Chat: true
+Spectators-Chat: true
+Lobby-Scoreboard-Enabled: false
+Allow-Spectators-Inventory-View: true
+Load-Skins-On-Skulls: true
+Disable-Natural-Mob-Spawning: true
+Show-Health-On-Bow-Hit: true
+Fireworks-Enabled: true
+Allow-Spectator-Join: false
+Leash-Mobs: true
+Void-Instant-Kill: true
+Teleport-Mobs: true
+Max-Arena-Size: 10000000
+Leave-Countdown-Seconds: 5
+Broadcast-Time:
+- 60
+- 30
+- 15
+- 5
+- 4
+- 3
+- 2
+- 1
+Allowed-Commands:
+- sw
+- skywars
+- tell
+- help
+- r
+- msg
+- ban
+- kick
+- report
+- stats
+- ucoin
+- coin
+- yenioyunagir
+Mystery-Box:
+  Block-Type: ENDER_CHEST
+  Cost: 1000
+  Contents:
+  - 'Kits : 30%'
+  - 'Cages : 35%'
+  - 'Trails : 35%'
+  Rarities:
+  - 'Common : 60%'
+  - 'Rare : 30%'
+  - 'Legendary : 10%'
+Hotbar-Items:
+  Arena-Selector:
+    enabled: false
+    slot: 1
+  Shop:
+    enabled: false
+    slot: 3
+  Party:
+    enabled: false
+    slot: 7
+  Profile:
+    enabled: false
+    slot: 2
+  Vote:
+    enabled: true
+    slot: 1
+  Inventory:
+    enabled: false
+    slot: 2
+  Quit:
+    enabled: true
+    slot: 9
+Chest-Checks:
+  Slot-Overwrite: 4
+  Item-Duplicate: 8
+Bungee-Mode:
+  hub: Lobi1
+MySQL:
+  enabled: false
+  table: ''
+  host: ''
+  port: 3306
+  database: skywars
+  username: skywars
+  password: ''
+  max_uuid_size: 36
+Rollback:
+  Scan-Speed: 50000
+  Repair-Speed: 10000
+  Queue-Size: 1
+  Send-Status-Update-Every: 20
+Executed-Commands:
+  Player-Win: []
+  Arena-Countdown: []
+  Arena-Start:
+  - time set 1000 %world%
+Saving-Task:
+  Enabled: true
+  Save-Every-Minutes: 10
+Team-Coloring:
+  default: '&a'
+  randomizer-enabled: true
+  randomizer-colors:
+  - '&2'
+  - '&3'
+  - '&5'
+  - '&6'
+  - '&7'
+  - '&8'
+  - '&9'
+  - '&a'
+  - '&b'
+  - '&c'
+  - '&d'
+  - '&e'
+Scoreboard-Title-Animation:
+  enabled: true
+  interval: 3
+  frames:
+  - '&e&lSKYWARS'
+  - '&e&lSKYWARS'
+  - '&e&lSKYWARS'
+  - '&f&lS&e&lKYWARS'
+  - '&f&lSK&e&lYWARS'
+  - '&f&lSKY&e&lWARS'
+  - '&f&lSKYW&e&lARS'
+  - '&f&lSKYWA&e&lRS'
+  - '&f&lSKYWAR&e&lS'
+  - '&f&lSKYWARS&e&l'
+  - '&e&lSKYWARS'
+  - '&e&lSKYWARS'
+  - '&e&lSKYWARS'
+  - '&e&lSKYWAR&f&lS'
+  - '&e&lSKYWA&f&lRS'
+  - '&e&lSKYW&f&lARS'
+  - '&e&lSKY&f&lWARS'
+  - '&e&lSK&f&lYWARS'
+  - '&e&lS&f&lKYWARS'
+Action-Bar-Enabled: false
+Titles:
+  enabled: true
+  fadeIn: 10
+  stay: 40
+  fadeOut: 10
+Lobby: world, 0.5, 66, 0.5, 0.0, 0.0
